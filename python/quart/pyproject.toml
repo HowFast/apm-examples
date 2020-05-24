@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "example-quart"
+version = "0.1.0"
+description = "Example Python application using the Quart framework"
+authors = ["Mickaël Bergem <mickael@howfast.tech>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.9"
+quart = "^0.12.0"
+howfast-apm = "^0.7.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
